@@ -7,5 +7,4 @@ Aqui contem todos os sites, layouts e arquivos relacionados.
 Para visualizar melhor, acesse o link do portfólio.
 </p>
 
-<a href="https://portfolio-self-pi-86.vercel.app/" src="portfolio"> </a>
 
