@@ -11,23 +11,37 @@ body{
   
 header{
     position: relative;
-    padding: 5%;
+    padding: 3%;
     background-color: #1b9e09;
 }
   
  body
   section{
     color: rgb(0, 0, 0);
-    text-align: left;
+    text-align: center;
 }
   
 article{
     color: rgb(0, 0, 0);
+    text-align: center;
+    text-indent: 0px;
+}
+
+article
+  hgroup{
+    margin: auto;
+    margin-top: -100px;
+    text-indent: 1px;
+    text-align: left;
 }
   
 article
   div{
     text-align: right;
+    padding-right: 160;
+    margin-left: 80%;
+    width: 170;
+    height: 100;
 }
 
 article
@@ -41,6 +55,14 @@ article
   p{
     text-align: left;
 }
+
+nav
+ol{
+  margin-top: 0;
+  padding: 2px;
+  text-align: left;
+}
+
 
 body
   p{
