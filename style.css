@@ -6,7 +6,7 @@ html,body{
 body{
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
   
 header{
@@ -17,12 +17,12 @@ header{
   
  body
   section{
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: left;
 }
   
 article{
-    color: white;
+    color: rgb(0, 0, 0);
 }
   
 article
@@ -44,11 +44,12 @@ article
 
 body
   p{
-    color: white;
+    color: rgb(0, 0, 0);
 }
   
 nav{
-    color:white;
+    color:rgb(0, 0, 0);
+    text-align: left;
 }
   
 footer{
