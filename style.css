@@ -1,82 +1,96 @@
 html,body{
     min-height: 100%;
-    text-align: center;
 }
-  
+
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
   
-header{
+header#logotipo {
     position: relative;
+    background-color: chartreuse;
+    text-align: center;
+    margin: 0;
     padding: 3%;
-    background-color: #1b9e09;
-}
-  
- body
-  section{
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-  
-article{
-    color: rgb(0, 0, 0);
-    text-align: center;
-    text-indent: 0px;
 }
 
-article
-  hgroup{
-    margin: auto;
-    margin-top: -100px;
-    text-indent: 1px;
-    text-align: left;
-}
-  
-article
-  div{
-    text-align: right;
-    padding-right: 3px;
-    margin-left: 70%;
-    height: 100;
-}
-
-article
-  h2{
-    text-align: left;
-    margin: 0%;
-    padding-top: 0%;
-}
-
-article
-  p{
-    text-align: left;
-}
-
-nav
-ol{
+article h1 {
+  text-align: center;
+  font-family: Arial;
+  background-color: black;
+  color:chartreuse;
   margin-top: 0;
-  padding: 2px;
+  padding-top: 30;
+  padding-bottom: 30;
+  font-size: 40;
+}
+  
+div#perfil {
+  text-align: right;
+  box-shadow: 25px 10px 25px 10px rgb(89, 89, 251);
+  background-color: black;
+  float: right;
+  margin: 0%;
+  padding: 1;
+}
+
+article#sobremim{
   text-align: left;
+  font-family: Arial;
+  color: rgb(255, 255, 255);
+  padding-left: 4;
+  
 }
 
+nav ol{
+  text-align: left;
+  padding-left: 5;
+  margin: 1;
+}
 
-body
-  p{
-    color: rgb(0, 0, 0);
+nav h2{
+  color: white;
+  font-family: Arial;
+  padding-left: 4;
+  margin-top: 150;
 }
-  
-nav{
-    color:rgb(0, 0, 0);
-    text-align: left;
+
+header#portfolio {
+  text-align: center;
+  font-family: Arial;
+  background-color: chartreuse;
+  padding: 100;
+  margin-top: 50;
+  margin-bottom: 50;
 }
-  
-footer{
-    margin-top: 100%;
-    padding: 3%;
+
+header#portfolio  p{
+  float: center;
+  box-shadow: 60px gray;
+  border-style: solid;
+  padding: 200px;
+}
+
+div#faleconosco h3{
+  color: white;
+  font-family: Arial;
+  padding-left: 4;
+  margin-top: 30;
+}
+
+div#faleconosco a{
+  text-align: left;
+  padding-left: 5;
+  margin: 1;
+}
+
+footer#rodape{
     text-align: center;
-    color: white;
-    background-color: #1b9e09;
+    font-family: Arial;
+    color: black;
+    padding: 20;
+    margin: auto;
+    background-color: chartreuse;
 }
