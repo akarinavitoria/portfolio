@@ -1,111 +1,144 @@
-html, body{
-  min-height: 100%;
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
 }
 
 body{
-  padding: 0;
-  margin: 0;
-  background-color: rgb(255, 255, 255);
-}
-  
-header#logotipo {
-  position: relative;
-  background-color: chartreuse;
-  padding: 0%;
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+    background-color: rgb(5, 19, 66);
+    color: #ffffff;
 }
 
-div#menu {
-  color: rgb(255, 255, 255);
-  text-align: right;
-  padding-top: 0%;
-  padding-left: 15%;
-  padding-right: 50%;
-  padding-bottom: 5%;
-  font-family: Arial;
-  font-size: 16px;
-}
-
-hgroup#apresentacao {
-  text-align: left;
-  font-family: Arial;
-  background-color: black;
-  color:rgb(255, 255, 255);
-  padding-top: 7%;
-  padding-left: 2%;
-  padding-bottom: 3%;
-  margin-left: 0%;
-  margin-right: 0%;
-  font-size: 15px;
-}
-
-  
-div#perfil {
-  text-align: right;
-  float: right;
-  margin: 1%;
-  padding: 10%;
-  padding-top: 2%;
-  padding-right: 15%;
-  padding-bottom: 5%;
-}
-
-div#perfil img{
-  border-style: solid;
-  color: rgb(255, 255, 255);
-  border-radius: 110%;
-}
-
-article#sobremim{
-  text-align: start;
-  padding-top: 2%;
-  padding-left: 5%;
-  padding-right: 50%;
-  padding-bottom: 10%;
-  margin-left: 0%;
-  font-family: Arial;
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  background-color: black ;
-}
-
-article#sobremim div{
-  text-align: right;
-  color: white;
-  margin-left: 90%;
-  padding-top: 2%;
-  padding-left: 100%;
-  padding-right: 5%;
-  padding-bottom: 100%;
-}
-
-nav{
-  text-align: left;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 5%;
-  margin-left: 0%;
-  color: white;
-  background-color: black;
-  font-family: Arial;
-  font-size: 12px;
-}
-
-nav ol{
-  text-align: left;
-  margin-left: 0%;
-  padding-left: 0%;
-}
-
-
-footer#rodape{
+header{
+    width: 100%;
+    display: block;
+    height: 70px;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-content: center;
     text-align: center;
-    font-family: Arial;
-    color: black;
-    margin: 0%;
-    padding: 2%;
-    background-color: chartreuse;
 }
 
+.content-1 {
+    padding: 50px 0px;
+    margin: 0px;
+}
+
+.sobre{
+    text-align: left;
+    padding: 30px 150px;
+    margin: 0px;
+}
+
+.sobre h1{
+    color:rgb(81, 247, 225);
+    font-size: 25pt;
+    padding-bottom: 0px;
+}
+
+.sobre h2{
+    color:rgb(255, 255, 255);
+    font-size: 20pt;
+    padding-bottom: 0px;
+}
+
+.sobre p{
+    color:#ffffff;
+    font-size: 15pt;
+    padding-bottom: 0px;
+    padding-right: 380px;
+    margin: 10px 0px;
+}
+
+.saiba{
+    float: left;
+    padding-bottom: 40px;
+    margin: 5px 150px;
+}
+
+.saiba button{
+    align-content: center;
+    padding: 0px 70px;
+    border: 1px solid rgb(81, 247, 225);
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.saiba a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.saiba p{
+    text-align: center;
+    font-size: 10pt;
+}
+
+.saiba  button:hover{
+    transition: 0s;
+    background-color: rgb(7, 125, 155);
+}
+
+.perfil{
+display: block;
+justify-content: space-around;
+align-content: right;
+position: absolute;
+top: 70%;
+right: 25px;
+transform: translateY(-50%);
+padding: 0px 120px;
+margin: 0px;
+}
+
+.perfil-img img{
+border-radius: 50%;
+box-shadow: 2px 5px 5px rgba(15, 11, 51, 0.5);
+width: 270px;
+height: 270px;
+}
+
+.redes{
+    clear: left;
+    text-align: left;
+    padding: 0px 70px;
+    margin: 0px;
+ }
+ 
+ .redes h2{
+     color:rgb(81, 247, 225);
+     font-size: 16pt;
+     padding-left: 80px;
+     padding-bottom: 0px;
+ }
+ 
+ .redes ul{
+     list-style: none;
+     padding-left: 80px;
+     margin: 0px;
+     padding-bottom: 30px;
+ }
+ 
+ .redes img{
+     float: left;
+     width: 40px;
+     height: 40px;
+     padding-bottom: 0px;
+     margin: 2px;
+ }
+
+footer{
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 13pt;
+    padding: 0;
+    margin: 0;
+}
