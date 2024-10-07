@@ -29,22 +29,22 @@ header{
 }
 
 .menu{
-    float: right;
-    display: flex;
-    flex-direction: row;
-    padding: 3px 3px;
-    margin: 15px 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .menu ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
    list-style: none; 
-   padding: 0px;
-   margin: 0px 5px;
+   padding: 20px;
+   margin: 0px;
 }
 
 .menu button{
-    padding: 0px 25px;
-    margin: 0px;
+    padding: 0px 15px;
+    margin: 0px 5px;
     border: 1px solid rgb(81, 247, 225);
     border-radius: 50px;
     background-color: transparent;
@@ -173,14 +173,215 @@ height: 270px;
      margin: 2px;
  }
 
+ .content-2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.projetos{
+    text-align: left;
+    padding: 30px 150px;
+    margin: 0px;
+}
+
+.projetos h1{
+    text-align: center;
+    color:rgb(81, 247, 225);
+    font-size: 25pt;
+    padding-bottom: 0px;
+}
+
+.projetos p{
+    color:#ffffff;
+    font-size: 15pt;
+    padding-bottom: 0px;
+    padding-right: 300px;
+    margin: 10px 0px;
+}
+
+.portfolio{
+    display: flex;
+    flex-direction: row;
+    float: center;
+    padding: 5px 190px;
+    margin: 0px;
+    align-content: center;
+}
+
+.portfolio img{
+    width: 100px;
+    height: 45px;
+}
+
+.item-1{
+    border:  1px hidden;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px #ffffff;
+    background-color: #cacaca;
+    padding: 20px 35px;
+    margin: 0px 20px;
+}
+
+.item-1 h3{
+    text-align: left;
+    color: black;
+    font-size: 20pt;
+}
+
+.item-1 p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 15pt;
+}
+
+.item-1 button{
+    border: 1px hidden rgb(81, 247, 225);
+    border-radius: 15px;
+    background-color: rgba(9, 109, 190, 0.877);
+}
+
+.item-1 button p{
+    font-size: 15pt;
+    padding: 0px 50px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.item-1 a{
+    text-decoration: none;
+}
+
+.item-2{
+    border:  1px hidden;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px #ffffff;
+    background-color: #cacaca;
+    padding: 20px 35px;
+    margin: 0px 20px;
+}
+
+.item-2 h3{
+    text-align: left;
+    color: black;
+    font-size: 20pt;
+}
+
+.item-2 p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 15pt;
+}
+
+.item-2 button{
+    border: 1px hidden rgb(81, 247, 225);
+    border-radius: 15px;
+    background-color: rgba(9, 109, 190, 0.877);
+}
+
+.item-2 button p{
+    font-size: 15pt;
+    text-align: center;
+    padding: 0px 50px;
+    margin: 10px 0px;
+}
+
+.item-2 a{
+    text-decoration: none;
+}
+
+.item-3{
+    border:  1px hidden;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px #ffffff;
+    background-color: #c7c7c9;
+    padding: 20px 35px;
+    margin: 0px 20px;
+}
+
+.item-3 h3{
+    text-align: left;
+    color: black;
+    font-size: 20pt;
+}
+
+.item-3 p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 15pt;
+}
+
+.item-3 button{
+    border: 1px hidden rgb(81, 247, 225);
+    border-radius: 15px;
+    background-color: rgba(9, 109, 190, 0.877);
+}
+
+.item-3 button p{
+    font-size: 15pt;
+    text-align: center;
+    padding: 0px 50px;
+    margin: 10px 0px;
+}
+
+.item-3 a{
+    text-decoration: none;
+}
+
+.contato{
+    padding: 50px 0px;
+    margin: 0px;
+}
+
+.contato p{
+    text-align: left;
+    font-size: 25pt;
+    padding-left: 170px;
+    padding-right: 800px;
+    margin:  25px 0px;
+}
+
+.contato h3{
+    text-align: left;
+    font-size: 30pt;
+    color:  rgb(81, 247, 225);
+    padding: 20px 170px;
+    margin: 5px 0px;
+}
+
+.contato a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contato button{
+    border: 1px solid rgb(81, 247, 225);
+    border-radius: 50px;
+    align-content: center;
+    padding: 5px 10px;
+    margin: 5px 168px;
+    background-color: transparent;
+}
+
+.contato button p{
+    font-size: 15pt;
+    padding: 0px 20px;
+    margin: 5px 20px;
+}
+
+.contato button:hover{
+    transition: 0s;
+    background-color:  rgb(7, 125, 155);
+}
+
+
 footer{
     width: 100%;
     height: 80px;
     align-content: center;
-    color: rgb(70, 67, 67);
+    color:  rgb(5, 19, 66);
     background-color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 10pt;
+    font-size: 12pt;
     padding: 0;
     margin: 0;
 }
