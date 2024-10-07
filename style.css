@@ -1,7 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     min-height: 100vh;
 }
 
@@ -12,18 +12,61 @@ body{
 
 header{
     width: 100%;
-    display: block;
-    height: 70px;
+    display: flex;
+    height: 80px;
     top: 0;
     left: 0;
-    justify-content: space-between;
-    background-color: #ffffff;
+    background-color: transparent;
     align-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo{
+    text-align: left;
+    padding: 10px 35px;
+    margin: 0px;
+}
+
+.menu{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 3px;
+    margin: 15px 20px;
+}
+
+.menu ul{
+   list-style: none; 
+   padding: 0px;
+   margin: 0px 5px;
+}
+
+.menu button{
+    padding: 0px 25px;
+    margin: 0px;
+    border: 1px solid rgb(81, 247, 225);
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu p{
     text-align: center;
+    font-size: 10pt;
+}
+
+.menu button:hover{
+    transition: 0s;
+    background-color: rgb(7, 125, 155);
 }
 
 .content-1 {
-    padding: 50px 0px;
+    padding: 10px;
     margin: 0px;
 }
 
@@ -105,7 +148,7 @@ height: 270px;
     clear: left;
     text-align: left;
     padding: 0px 70px;
-    margin: 0px;
+    margin: 50px 0px;
  }
  
  .redes h2{
@@ -132,13 +175,14 @@ height: 270px;
 
 footer{
     width: 100%;
-    height: 70px;
-    justify-content: space-between;
+    height: 80px;
     align-content: center;
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
+    color: rgb(70, 67, 67);
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 13pt;
+    font-size: 10pt;
     padding: 0;
     margin: 0;
 }
+
+
