@@ -24,45 +24,8 @@ header{
 
 .logo{
     text-align: left;
-    padding: 10px 35px;
+    padding: 20px 35px;
     margin: 0px;
-}
-
-.menu{
-    padding: 0px;
-    margin: 0px;
-}
-
-.menu ul{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-   list-style: none; 
-   padding: 20px;
-   margin: 0px;
-}
-
-.menu button{
-    padding: 0px 15px;
-    margin: 0px 5px;
-    border: 1px solid rgb(81, 247, 225);
-    border-radius: 50px;
-    background-color: transparent;
-}
-
-.menu a{
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.menu p{
-    text-align: center;
-    font-size: 10pt;
-}
-
-.menu button:hover{
-    transition: 0s;
-    background-color: rgb(7, 125, 155);
 }
 
 .content-1 {
