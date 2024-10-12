@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(5, 19, 66);
+    color: #ffffff;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    display: fixed;
+    align-content: center;
+    height: 80px;
+    background-color: white;
+}
+
+.logo{
+    text-align:center;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.content-1{
+    padding: 3rem 2rem;
+    margin: 0rem;
+}
+
+.sobre{
+    text-align: left;
+    padding: 10px 0px;
+    margin: 5px;
+}
+
+.sobre h1{
+    color:  rgb(81,247,225);
+    font-size: 22pt;
+    padding: 0px 25px;
+    margin: 0px;
+}
+
+.sobre h2{
+    color:  rgb(255, 255, 255);
+    font-size: 17pt;
+    padding: 10px 25px;
+    margin: 0px;
+}
+
+.sobre p{
+    color:  rgb(255, 255, 255);
+    font-size: 15pt;
+    padding: 20px 25px;
+    margin: 0px;
+}
+
+.linguagens-2{
+    text-align: left;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.linguagens-2 p{
+    color: rgb(81,247,225);
+    font-size: 15pt;
+    padding: 10px 30px;
+    margin: 0px;
+}
+
+.linguagens-itens{
+    text-align: left;
+    padding: 5px 30px;
+    margin: 0px;
+}
+
+.linguagens-itens img{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin: 0px 2px;
+}
+
+.perfil{
+    padding: 2rem 4.5rem;
+    margin: 2rem 0rem;
+}
+
+.perfil-itens{
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+.perfil-itens img{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 235px;
+    height: 235px;
+}
+
+.perfil-itens img{
+    border: 1px hidden;
+    border-radius: 50ch;
+    box-shadow: 0px 0px 15px 0px rgba(15,11,51,0.5);
+}
+
+.redes{
+    padding: 1rem;
+    margin: 2em 0rem;
+}
+
+.redes-itens{
+    padding: 2px 0px;
+    margin: 0px;
+}
+
+.redes h2{
+    text-align: left;
+    color: rgb(81,247,225);
+    font-size: 17pt;
+    padding: 0px 30px;
+    margin: 0px;
+}
+
+.redes ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+.redes p{
+    text-align: left;
+    align-content: center;
+    color: #ffffff;
+    font-size: 13pt;
+    padding: 5px 30px;
+    margin: 0px;
+}
+
+.redes a{
+    text-decoration: none;
+}
+
+.redes a :hover{
+    transition: 0s;
+    color: rgb(36, 146, 236, 0.877);
+}
+
+.saiba{
+    padding: 2rem;
+    margin: 2rem 0rem;
+}
+
+.saiba-itens{
+    text-align: left;
+   padding: 2px 0px;
+   margin: 0px;
+}
+
+.saiba button{
+    padding: 7px 35px;
+    margin: 1px 0px;
+    border: 1px hidden;
+    border-radius: 25px;
+    background-color: rgba(36, 146, 236, 0.877);
+    align-content: center;
+}
+
+.saiba button:hover{
+    transition: 0s;
+    background-color:rgb(7,125,155); 
+}
+
+.saiba button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.saiba button p{
+    font-size: 10pt;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    align-content: center;
+    color:  rgb(5, 19, 66);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12pt;
+}
+
+
