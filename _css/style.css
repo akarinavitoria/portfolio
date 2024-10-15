@@ -8,7 +8,6 @@
 body{
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-content: center;
     background-color: rgb(5, 19, 66);
     color: #ffffff;
@@ -31,8 +30,8 @@ header{
 }
 
 .content-1{
-    padding: 3rem 2rem;
-    margin: 0rem;
+    padding: 5rem;
+    margin: 2rem;
 }
 
 .sobre{
@@ -42,85 +41,52 @@ header{
 }
 
 .sobre h1{
+    text-align: left;
     color:  rgb(81,247,225);
-    font-size: 22pt;
-    padding: 0px 25px;
+    font-size: 30pt;
+    padding: 25px;
     margin: 0px;
 }
 
 .sobre h2{
     color:  rgb(255, 255, 255);
-    font-size: 17pt;
-    padding: 10px 25px;
+    text-indent: 15px;
+    font-size: 25pt;
+    padding: 20px;
     margin: 0px;
 }
 
 .sobre p{
+    text-align: left;
     color:  rgb(255, 255, 255);
-    font-size: 15pt;
-    padding: 20px 25px;
+    font-size: 20pt;
+    padding: 20px;
+    letter-spacing: 1px;
     margin: 0px;
 }
 
-.linguagens-2{
-    text-align: left;
-    padding: 10px 0px;
-    margin: 0px;
-}
-
-.linguagens-2 p{
-    color: rgb(81,247,225);
-    font-size: 15pt;
-    padding: 10px 30px;
-    margin: 0px;
-}
-
-.linguagens-itens{
-    text-align: left;
-    padding: 5px 30px;
-    margin: 0px;
-}
-
-.linguagens-itens img{
+.perfil-photo{
     display: flex;
-    flex-direction: row;
-    float: left;
-    width: 45px;
-    height: 45px;
-    margin: 0px 2px;
+     float: inline-start;
+     align-content: center;
+     padding: 15px 45px;
+     margin: 0px;
 }
 
-.perfil{
-    padding: 2rem 4.5rem;
-    margin: 2rem 0rem;
-}
-
-.perfil-itens{
-    padding: 5px 0px;
-    margin: 0px;
-}
-
-.perfil-itens img{
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    width: 235px;
-    height: 235px;
-}
-
-.perfil-itens img{
-    border: 1px hidden;
+.perfil-photo img{
+    border: 1px hidden transparent;
     border-radius: 50ch;
-    box-shadow: 0px 0px 15px 0px rgba(15,11,51,0.5);
+    box-shadow: 0px 0px 15px 0px rgb(3, 17, 63);
 }
+
 
 .redes{
-    padding: 1rem;
-    margin: 2em 0rem;
+   padding: 1rem;
+   margin: 0rem;
 }
 
 .redes-itens{
-    padding: 2px 0px;
+    padding: 20px;
     margin: 0px;
 }
 
@@ -128,24 +94,22 @@ header{
     text-align: left;
     color: rgb(81,247,225);
     font-size: 17pt;
-    padding: 0px 30px;
+    padding: 5px;
     margin: 0px;
 }
 
 .redes ul{
     list-style: none;
     display: flex;
-    flex-direction: column;
-    padding: 5px 0px;
+    flex-direction: row;
+    padding: 1px;
     margin: 0px;
 }
 
 .redes p{
-    text-align: left;
-    align-content: center;
     color: #ffffff;
-    font-size: 13pt;
-    padding: 5px 30px;
+    font-size: 15pt;
+    padding: 5px;
     margin: 0px;
 }
 
@@ -158,21 +122,16 @@ header{
     color: rgb(36, 146, 236, 0.877);
 }
 
-.saiba{
-    padding: 2rem;
-    margin: 2rem 0rem;
-}
-
 .saiba-itens{
-    text-align: left;
-   padding: 2px 0px;
+   float: inline-start;
+   padding: 25px 0px;
    margin: 0px;
 }
 
 .saiba button{
-    padding: 7px 35px;
-    margin: 1px 0px;
-    border: 1px hidden;
+    padding: 10px 35px;
+    margin: 0px;
+    border: 1px hidden transparent;
     border-radius: 25px;
     background-color: rgba(36, 146, 236, 0.877);
     align-content: center;
@@ -189,9 +148,133 @@ header{
 }
 
 .saiba button p{
-    font-size: 10pt;
+    font-size: 13pt;
     text-align: center;
 }
+
+.content-2{
+    padding: 2rem;
+    margin: 0rem;
+}
+
+.projetos{
+     float: right;
+     padding: 10px;
+     margin: 0px;
+}
+
+.projetos h1{
+    text-align: left;
+    color: rgb(81,247,225);
+    font-size: 30pt;
+    padding: 25px;
+    margin: 0px;
+}
+
+.portfolio{
+    display: flex;
+    float: right;
+    flex-direction: row;
+    align-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.item-1{
+    padding: 20px;
+    margin: 5px;
+}
+
+.item-1 img{
+    width: 100px;
+    height: 45px;
+}
+
+.item-1 h3{
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.item-1 p{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.item-1{
+    border: 1px hidden #ffffff;
+    border-radius: 15px;
+    background-color: darkgray;
+    padding: 25px;
+    margin: 2px;
+}
+
+
+.item-2{
+    padding: 20px;
+    margin: 5px;
+}
+
+.item-2 img{
+    width: 100px;
+    height: 45px;
+}
+
+.item-2 h3{
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.item-2 p{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+
+.item-2{
+    border: 1px hidden #ffffff;
+    border-radius: 15px;
+    background-color: darkgray;
+    padding: 25px;
+    margin: 2px;
+}
+
+.item-3{
+    padding: 20px;
+    margin: 5px;
+}
+
+.item-3 img{
+    width: 100px;
+    height: 45px;
+}
+
+.item-3 h3{
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+}
+
+.item-3 p{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+.item-3{
+    border: 1px hidden #ffffff;
+    border-radius: 15px;
+    background-color: darkgray;
+    padding: 25px;
+    margin: 2px;
+}
+
+
 
 footer{
     width: 100%;
