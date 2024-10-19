@@ -1,289 +1,352 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 
 body{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    background-color: rgb(5, 19, 66);
+    background-color:rgb(40, 25, 128);
     color: #ffffff;
-    padding: 0px;
-    margin: 0px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 header{
-    width: 100%;
-    display: fixed;
+    padding: 2rem;
+    background-color:transparent; 
+    text-align: center;
     align-content: center;
-    height: 80px;
-    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
-.logo{
-    text-align:center;
-    padding: 0rem;
-    margin: 0rem;
+.logo img{
+    width: 55px;
+    height: 55px;
 }
 
 .content-1{
-    padding: 5rem;
-    margin: 2rem;
+ padding: 5rem;
+ display: flex;
+ flex-direction: column;
+ gap: 150px;
 }
 
 .sobre{
-    text-align: left;
-    padding: 10px 0px;
-    margin: 5px;
+    padding: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .sobre h1{
-    text-align: left;
-    color:  rgb(81,247,225);
-    font-size: 30pt;
-    padding: 25px;
-    margin: 0px;
+    padding: 15px;
+    text-align:right;
+    font-size: 50px;
+    color: rgb(81,247,225);
 }
 
 .sobre h2{
-    color:  rgb(255, 255, 255);
-    text-indent: 15px;
-    font-size: 25pt;
-    padding: 20px;
-    margin: 0px;
+    padding: 15px;
+    text-align: right;
+    font-size: 30px;
+    padding: 20px 5px;
 }
 
 .sobre p{
-    text-align: left;
-    color:  rgb(255, 255, 255);
-    font-size: 20pt;
-    padding: 20px;
-    letter-spacing: 1px;
-    margin: 0px;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 5px;
+}
+  
+.saiba-mais{
+   padding: 2rem 5rem;
+}
+
+.saiba-mais{
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+   padding: 25px 90px;
 }
 
 .perfil-photo{
-    display: flex;
-     float: inline-start;
-     align-content: center;
-     padding: 15px 45px;
-     margin: 0px;
+    padding: 4rem;
+    float:right;
 }
 
 .perfil-photo img{
-    border: 1px hidden transparent;
-    border-radius: 50ch;
-    box-shadow: 0px 0px 15px 0px rgb(3, 17, 63);
+   max-width: 270px;
+   border: 1px hidden transparent;
+   border-radius: 50ch;
+   box-shadow: rgba(15,11,51,0.5);
 }
-
 
 .redes{
-   padding: 1rem;
-   margin: 0rem;
-}
-
-.redes-itens{
-    padding: 20px;
-    margin: 0px;
+    padding: 5.7rem;
+    float: left;
 }
 
 .redes h2{
     text-align: left;
+    font-size: 25pt;
     color: rgb(81,247,225);
-    font-size: 17pt;
-    padding: 5px;
-    margin: 0px;
 }
 
-.redes ul{
-    list-style: none;
+.redes-itens ul{
     display: flex;
-    flex-direction: row;
-    padding: 1px;
-    margin: 0px;
+    flex-direction: rosw;
+    list-style: none;
+    padding: 30px 10px;
+    gap: 1rem;
 }
 
-.redes p{
-    color: #ffffff;
-    font-size: 15pt;
-    padding: 5px;
-    margin: 0px;
+.redes-itens img{
+   max-width: 50px;
 }
 
-.redes a{
-    text-decoration: none;
-}
-
-.redes a :hover{
-    transition: 0s;
-    color: rgb(36, 146, 236, 0.877);
-}
-
-.saiba-itens{
-   float: inline-start;
-   padding: 25px 0px;
-   margin: 0px;
-}
-
-.saiba button{
-    padding: 10px 35px;
-    margin: 0px;
-    border: 1px hidden transparent;
-    border-radius: 25px;
-    background-color: rgba(36, 146, 236, 0.877);
-    align-content: center;
-}
-
-.saiba button:hover{
-    transition: 0s;
-    background-color:rgb(7,125,155); 
-}
-
-.saiba button a{
+.redes-itens a{
     text-decoration: none;
     color: #ffffff;
 }
 
-.saiba button p{
-    font-size: 13pt;
+.redes-itens a:hover{
+    color: rgb(18, 144, 175);
+}
+
+.botao{
+   padding: 2rem 5rem;
+   display: flex;
+   float: left;
+   align-content: center;
+}
+
+.botao-1 p{
     text-align: center;
+    font-size: 13pt;
+}
+
+.botao-1 button{
+    border: 1px solid rgb(81,247,225);
+    border-radius: 20px;
+    padding: 10px 55px;
+    background-color: transparent;
+}
+
+.botao-1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.botao-1 button:hover{
+   background-color:rgb(18, 144, 175);
 }
 
 .content-2{
-    padding: 2rem;
-    margin: 0rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .projetos{
-     float: right;
-     padding: 10px;
-     margin: 0px;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .projetos h1{
-    text-align: left;
+    padding: 35px;
+    text-align: Center;
+    font-size: 50px;
     color: rgb(81,247,225);
-    font-size: 30pt;
-    padding: 25px;
-    margin: 0px;
 }
 
 .portfolio{
+    padding: 2rem 15rem; 
     display: flex;
-    float: right;
     flex-direction: row;
-    align-content: center;
-    padding: 10px;
-    margin: 5px;
+    gap: 25px;
 }
 
 .item-1{
-    padding: 20px;
-    margin: 5px;
+    padding: 25px;
+    border: 1px hidden;
+    border-radius: 15px;
+    background-color: grey;
+    align-content: center;
 }
 
 .item-1 img{
-    width: 100px;
-    height: 45px;
+    max-width: 45px;
+    align-items: center;
 }
 
 .item-1 h3{
-    padding: 5px;
-    font-size: 25px;
-    color: black;
+   padding: 10px;
+   font-size: 20pt;
+   text-align: left;
+   color: black;
 }
 
 .item-1 p{
-    padding: 5px;
-    font-size: 20px;
-    color: black;
+  text-align: center;
 }
 
-.item-1{
-    border: 1px hidden #ffffff;
-    border-radius: 15px;
-    background-color: darkgray;
-    padding: 25px;
-    margin: 2px;
+.item-1 a{
+    color: #ffffff;
+    text-decoration: none;
 }
 
-
-.item-2{
-    padding: 20px;
-    margin: 5px;
-}
-
-.item-2 img{
-    width: 100px;
-    height: 45px;
-}
-
-.item-2 h3{
-    padding: 5px;
-    font-size: 25px;
-    color: black;
-}
-
-.item-2 p{
-    padding: 5px;
-    font-size: 20px;
-    color: black;
-}
-
-
-.item-2{
-    border: 1px hidden #ffffff;
-    border-radius: 15px;
-    background-color: darkgray;
-    padding: 25px;
-    margin: 2px;
-}
-
-.item-3{
-    padding: 20px;
-    margin: 5px;
-}
-
-.item-3 img{
-    width: 100px;
-    height: 45px;
-}
-
-.item-3 h3{
-    padding: 5px;
-    font-size: 25px;
-    color: black;
-}
-
-.item-3 p{
-    padding: 5px;
-    font-size: 20px;
-    color: black;
-}
-
-
-
-.item-3{
-    border: 1px hidden #ffffff;
-    border-radius: 15px;
-    background-color: darkgray;
-    padding: 25px;
-    margin: 2px;
-}
-
-
-
-footer{
-    width: 100%;
-    height: 80px;
-    align-content: center;
-    color:  rgb(5, 19, 66);
-    background-color: rgb(255, 255, 255);
+.item-1 button p{
     text-align: center;
     font-size: 12pt;
 }
+
+.item-1 button{
+   padding: 2px 35px;
+   align-content: center;
+   border: 1px hidden rgb(81,247,225);
+   border-radius: 15px;
+   background-color: rgb(29, 42, 218);
+}
+
+.item-1 button:hover{
+  background-color: rgb(18, 144, 175);
+}
+
+.item-2{
+    padding: 25px;
+    border: 1px hidden;
+    border-radius: 15px;
+    background-color: grey;
+    align-content: center;
+}
+
+.item-2 img{
+    max-width: 45px;
+    align-items: center;
+}
+
+.item-2 h3{
+   padding: 10px;
+   font-size: 20pt;
+   text-align: left;
+   color: black;
+}
+
+.item-2 p{
+   text-align: center;
+}
+
+.item-2 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.item-2 button p{
+    text-align: center;
+    font-size: 12pt;
+}
+
+.item-2 button{
+   padding: 2px 35px;
+   align-content: center;
+   border: 1px hidden rgb(81,247,225);
+   border-radius: 15px;
+   background-color: rgb(29, 42, 218);
+}
+
+.item-2 button:hover{
+    background-color: rgb(18, 144, 175);
+  }
+
+.item-3{
+    padding: 25px;
+    border: 1px hidden;
+    border-radius: 15px;
+    background-color: grey;
+    align-content: center;
+}
+
+.item-3 img{
+    max-width: 45px;
+    align-items: center;
+}
+
+.item-3 h3{
+   padding: 10px;
+   font-size: 20pt;
+   text-align: left;
+   color: black;
+}
+
+.item-3 p{
+   text-align: center;
+}
+
+.item-3 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.item-3 button p{
+    text-align: center;
+    font-size: 12pt;
+}
+
+.item-3 button{
+   padding: 2px 35px;
+   align-content: center;
+   border: 1px hidden rgb(81,247,225);
+   border-radius: 15px;
+   background-color: rgb(29, 42, 218);
+}
+
+.item-3 button:hover{
+    background-color: rgb(18, 144, 175);
+  }
+
+
+.contato{
+    padding: 3rem;
+    text-align: center;
+}
+
+.contato h3{
+    padding: 25px;
+    font-size: 25pt;
+    text-align: left;
+}
+
+.contato a{
+    font-size: 15pt;
+}
+
+.contato a{
+    color: #ffffff;
+    border: 1px solid rgb(81,247,225);
+    border-radius: 20px;
+    padding: 10px 50px;
+    align-content: center;
+    text-decoration: none;
+}
+
+.contato a:hover{
+    background-color:rgb(18, 144, 175);
+}
+
+footer{
+    padding: 2rem;
+    align-content: center;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    font-size: 15pt;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
 
 
