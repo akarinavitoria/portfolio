@@ -5,110 +5,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio da Karina Vitória">
   <link rel="stylesheet" href="_css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>Karina Vitória</title>
-  <link rel="apple-touch-icon" sizes="180x180" href="_imagens/Favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="_imagens/Favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="_imagens/Favicon/favicon-16x16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="_imagens/Favicon/android-chrome-192x192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="_imagens/Favicon/android-chrome-512x512.png">
-  <link rel="manifest" href="_imagens/site.webmanifest">
 </head>
 
 <body>
   <!-- Cabeçalho -->
   <header>
-    <div class="logo">
-      <img src="_imagens/logotipo/grapes.png" alt="Logotipo da Karina Vitória" />
-    </div>
+      <img src="#" class="img-fluid" alt="Logotipo da Karina Vitória" />
   </header>
 
   <!-- Conteúdo principal da página -->
-  <main>
-    <section class="content-1">
-      <div class="sobre">
-        <h1>Meu nome é Karina Vitória <br>e eu sou desenvolvedora Front-End!</h1>
+   <section class="container">
+      <div class="row">
+        <div class= "col">
+        <h1>Meu nome é Karina Vitória e eu sou desenvolvedora <br>Front-End!
+        </h1>
+
         <h2>Criatividade é tudo!</h2>
         <p>
-          Estou sempre procurando por novas ideias e formas de melhorar meus projetos. Desenvolvimento de sites para E-commerce, criação de Landing pages e pequenos projetos que possam agregar para o desenvolvimento e avanços tecnológicos, e isso é só o começo!
+          Estou sempre procurando por novas ideias e formas de melhorar meus projetos. Desenvolvimento de sites para E-commerce, criação de Landing pages e pequenos projetos que possam agregar para o desenvolvimento e avanços tecnológicos.
         </p>
-      </div>
 
-      <div class="saiba-mais">
-       <div class="perfil-photo">
-        <img src="_imagens/perfil/IMG_20240827_170830_681.jpg" alt="Foto de Karina Vitória" />
-       </div>
-
+       <!--redes sociais -->
        <div class="redes">
-        <h2>REDES SOCIAIS</h2>
-         <div class="redes-itens">
-          <ul>
-          <li>
-            <a href="https://x.com/akarinav_dev" target="_blank"><img src="_imagens/redes-sociais/twitter.png" alt="twitter"></a>
-         </li>
-          <li>
-            <a href="https://www.instagram.com/akarinavitoria.dev" target="_blank"><img src="_imagens/redes-sociais/instagram.png" alt="instagram"></a>
-           </li>
-           <li>
-            <a href="https://www.linkedin.com/in/akarinavitória/" target="_blank"><img src="_imagens/redes-sociais/linkedin.png" alt="linkedin"></a>
-          </li>
-         </ul>
-
-         <div class="botao">
-          <div class="botao-1">
-           <button>
-            <a href="currículo.html" target="_blank"><p>Saiba Mais</p></a>
-          </button> 
-          </div>
+        <img src="" class="img-fluid"/>
        </div>
-     </div>
-</section>
+
+          <div class="button">
+           <button>Saiba Mais</button> 
+          </div>
+        </div>
+      
 
     <!-- Área de Projetos -->
-    <section class="content-2">
-      <div class="projetos">
-        <h1>Projetos</h1>
+     
+    <div class="col-10">
+    <h1>Meus projetos</h1>
+    
+    <div class="itens-1">
+      <h3>Titulo</h3>
+      <button>Ver projeto</button>
+    </div>
 
-        <div class="portfolio">
-          <div class="item-1">
-            <img src="#" alt="Imagem do Projeto 1" />
-            <h3>Projeto 1</h3>
-            <p>Descrição</p>
-           <button><a href="#" target="#"><p>Ver Projeto</p></a></button>
-          </div>
+     <div class="itens-2">
+       <h3>Titulo</h3>
+       <button>Ver projeto</button>
+     </div>
 
-          <div class="item-2">
-              <img src="#" alt="Imagem do Projeto 1" />
-              <h3>Projeto 2</h3>
-              <p>Descrição</p>
-             <button><a href="#" target="#"><p>Ver Projeto</p></a></button>
-            </div>
-
-          <div class="item-3">
-              <img src="#" alt="Imagem do Projeto 1" />
-              <h3>Projeto 3</h3>
-              <p>Descrição</p>
-             <button><a href="#" target="#"><p>Ver Projeto</p></a></button>
-            </div>
-      </div>
-      </div>
-    </section>
+     <div class="itens-3">
+       <h3>Titulo</h3>
+       <button>Ver projeto</button>
+    </div>
+  </div>
 
     <!-- Área de contato -->
-    <div class="contato">
+    <div class="col  col-xl-12">
       <h3>
         Tem interesse em adquirir um site personalizado 
           ou precisa de ajuda com algum projeto?<br>
           Entre em contato comigo!
         </h3>
-      <a href="#" target="_blank">Entrar em contato</a>
+         <div class="button">
+            <button>Entrar em contato</button>
+            </div>
     </div>
+  </div>
+   </section>
 
     <!-- Rodapé -->
-    <footer>
-      &copy; 2024 | akarinavitoria
+<footer>
+   &copy; akarinavitoria
     </footer>
 
-    <script src="_javascript/function.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
