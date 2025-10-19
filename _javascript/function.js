@@ -1,7 +1,2 @@
-let (portfolio)
-let = (portfolioItens
-[itens1, itens2, itens3]
-);
-
-function portfolioItens(1) {
-} ;
+// Portfolio functionality - to be implemented later
+// Placeholder for portfolio filtering and interaction
