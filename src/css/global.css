@@ -1,31 +1,27 @@
+*{
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
 body{
-    display: flexbox;
     margin: 0;
-    padding: 0;
-    width: 100%;
-    height: auto;
-    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    background-color:orangered;
 }
 
 header{
     display: flex;
     margin: 0;
-    padding: 0;
     width: 100%;
-    height: auto;
+    padding: 15px 20px;
     background-color: rgb(255, 255, 255);
     align-items: center;
 }
 
-header img{
-  padding: 15px 25px;
-  align-self: baseline;
-}
-
 .botoes{
-    padding: 40px 0px;
+    padding: 0px 50px;
     margin: 0px;
-    align-self: last baseline;
 }
 
 .botoes button{
@@ -39,44 +35,56 @@ header img{
     color: black;
 }
 
-section{
+main{
+    margin: 20px;
+    padding: 15px 30px;
     border: 1px solid;
-    border-color: orange;
+    border-color: rgb(255, 255, 255);
     border-radius: 8px;
-    justify-content: center;
+    align-content: center;
+    background-color:rgb(255, 115, 0) ;
 }
 
-.apresentaçao{
+.perfil{
     display: flex;
-    padding: 25px;
-    margin: 15px;
+    padding: 15px 50px;
+    margin: 0px;
     align-items: center;
+    background-color: ;
     justify-content: center;
 }
 
-.apresentaçao h1{
-    color: orange;
+.perfil h1{
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
 }
 
-.apresentaçao h2{
-    color: black;
-    text-indent: 15px;
+.perfil h2{
+    color: rgb(255, 255, 255);
+    text-indent: 10px;
 }
 
-.apresentaçao p{
-    text-indent: 35px;
+.perfil p{
+    color: white;
+    text-indent: 5px;
 }
 
-.apresentaçao img{
+.perfil img{
     padding: 5px;
-    border: 3px dashed orange;
-    border-radius: 50%;
+    border: 1px hidden;
+    border-radius: 10px 50px 25px 50px;
+    box-shadow: 20px 10px orangered;
+}
+
+.linguagens{
+   padding: 0px 25px;
+   margin: 5px;
+   justify-content: center;
 }
 
 .projetos{
-    margin: 15px;
-    padding: 25px;
+    margin: 20px;
+    padding: 15px 30px;
     background-color: white;
     border: 1px solid orange;
     border-radius: 8px;
@@ -122,9 +130,9 @@ section{
     display: flex;
     flex-direction: column;
     padding: 25px;
-    margin: 15px;
+    margin: 20px;
     color: white;
-    background-color: orange;
+    background-color: rgb(255, 115, 0);
     align-items: center;
     justify-content: center;
 }
@@ -140,22 +148,23 @@ section{
 }
 
 footer{
-    margin: 0px;
-    padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
     width: 100%;
-    height: auto;
+    margin: 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
     align-items: center;
-    justify-content: center;
-}
-
-footer img{
-    padding: 5px 15px;
+    justify-content: space-between;
+    overflow-x: hidden;
 }
 
 .social-media{
     display: flex;
     flex-direction: column;
-    padding: 5px 15px;
+    align-items: start;
+    justify-content: left;
 }
 
 .social-media h3{
@@ -163,18 +172,12 @@ footer img{
     text-align: left;
 }
 
-.links{
-    display: flex;
-    flex-direction: row;
-}
-
 .links img{
-    margin: 3px;
-    padding: 0px 2px;
+    margin: 1px;
+    padding: 0px 2px 15px 0px;
 }
 
 footer p{
-    padding: 15px 0px;
-    text-align: center;
+    margin: 0px;
     color: rgb(0, 0, 0);
 }
