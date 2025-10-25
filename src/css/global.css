@@ -1,0 +1,180 @@
+body{
+    display: flexbox;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+header{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+header img{
+  padding: 15px 25px;
+  align-self: baseline;
+}
+
+.botoes{
+    padding: 40px 0px;
+    margin: 0px;
+    align-self: last baseline;
+}
+
+.botoes button{
+    padding: 10px 35px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: orange;
+    background-color: transparent;
+    align-items: center;
+    color: black;
+}
+
+section{
+    border: 1px solid;
+    border-color: orange;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.apresentaçao{
+    display: flex;
+    padding: 25px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentaçao h1{
+    color: orange;
+    text-transform: uppercase;
+}
+
+.apresentaçao h2{
+    color: black;
+    text-indent: 15px;
+}
+
+.apresentaçao p{
+    text-indent: 35px;
+}
+
+.apresentaçao img{
+    padding: 5px;
+    border: 3px dashed orange;
+    border-radius: 50%;
+}
+
+.projetos{
+    margin: 15px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 8px;
+}
+
+.projetos h2{
+    text-align: center;
+    font-size: 35px;
+    color: orange;
+}
+
+.container-projetos{
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    justify-content: center;
+}
+
+.card-projetos{
+    margin: 10px;
+    padding: 10px;
+    align-items: start;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: orange;
+}
+
+.card-projetos p{
+    text-align: center;
+}
+
+.card-projetos button{
+    margin: 15px 0px;
+    padding: 10px 45px;
+    border: 1px hidden;
+    border-radius: 8px;
+    background-color: orange;
+    align-items: center;
+    color: white;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 15px;
+    color: white;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato button{
+    margin: 15px 0px;
+    padding: 15px 55px;
+    border: 1px hidden;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    color: white;
+}
+
+footer{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    padding: 5px 15px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+}
+
+.social-media h3{
+    padding: 0px 5px;
+    text-align: left;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+.links img{
+    margin: 3px;
+    padding: 0px 2px;
+}
+
+footer p{
+    padding: 15px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
