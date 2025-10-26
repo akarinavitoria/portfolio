@@ -7,109 +7,105 @@ body{
     margin: 0;
     width: 100vw;
     height: 100vh;
-    background-color:orangered;
+    background-color:rgb(255, 255, 255);
 }
 
 header{
     display: flex;
+    position: absolute;
     margin: 0;
     width: 100%;
-    padding: 15px 20px;
+    padding: 10px 20px;
     background-color: rgb(255, 255, 255);
     align-items: center;
+    justify-content: left;
 }
 
 .botoes{
     padding: 0px 50px;
     margin: 0px;
+    align-items: center;
 }
 
 .botoes button{
-    padding: 10px 35px;
+    padding: 10px 55px;
     margin: 5px;
-    border: 1px solid;
+    border: 1px hidden;
     border-radius: 8px;
-    border-color: orange;
-    background-color: transparent;
+    background-color: orangered;
     align-items: center;
-    color: black;
+    color: rgb(255, 255, 255);
+   font-size: 20px;
 }
 
 main{
-    margin: 20px;
-    padding: 15px 30px;
-    border: 1px solid;
-    border-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    align-content: center;
-    background-color:rgb(255, 115, 0) ;
+    margin: 80px 0px 0px 0px;
+    padding: 5px;
+    align-items: center;
 }
 
 .perfil{
     display: flex;
-    padding: 15px 50px;
-    margin: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
     align-items: center;
-    background-color: ;
     justify-content: center;
+     background-color:rgb(255, 132, 31);
 }
 
 .perfil h1{
+    padding: 0px 30px;
     color: rgb(255, 255, 255);
-    text-transform: uppercase;
 }
 
 .perfil h2{
+    padding: 0px 35px;
     color: rgb(255, 255, 255);
-    text-indent: 10px;
-}
-
-.perfil p{
-    color: white;
     text-indent: 5px;
 }
 
+.perfil p{
+    padding: 0px 35px;
+    color: rgb(255, 255, 255);
+    text-indent: 5px;
+}
 .perfil img{
     padding: 5px;
     border: 1px hidden;
-    border-radius: 10px 50px 25px 50px;
-    box-shadow: 20px 10px orangered;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 20px 40px 0px 0px orangered;
 }
 
 .linguagens{
-   padding: 0px 25px;
+   padding: 0px 5px;
    margin: 5px;
-   justify-content: center;
-}
-
-.projetos{
-    margin: 20px;
-    padding: 15px 30px;
-    background-color: white;
-    border: 1px solid orange;
-    border-radius: 8px;
+   justify-content: left;
 }
 
 .projetos h2{
     text-align: center;
     font-size: 35px;
-    color: orange;
+    color: orangered;
 }
 
 .container-projetos{
     display: flex;
     text-align: center;
     margin: 0px;
+    padding: 20px;
     justify-content: center;
+    background-color: white;
 }
 
 .card-projetos{
-    margin: 10px;
-    padding: 10px;
-    align-items: start;
-    border: 1px solid;
-    border-radius: 10px;
-    border-color: orange;
+    margin: 10px 5px;
+    padding: 20px;
+    align-items: center;
+    border: 1px hidden;
+    border-radius: 8px;
+    justify-content: center;
+    background-color:rgb(255, 132, 31);
 }
 
 .card-projetos p{
@@ -117,64 +113,58 @@ main{
 }
 
 .card-projetos button{
-    margin: 15px 0px;
-    padding: 10px 45px;
+    margin: 10px 0px;
+    padding: 5px 45px;
     border: 1px hidden;
     border-radius: 8px;
-    background-color: orange;
+    background-color: orangered;
     align-items: center;
     color: white;
 }
 
 .contato{
     display: flex;
-    flex-direction: column;
-    padding: 25px;
+    flex-wrap: wrap;
+    padding: 30px;
     margin: 20px;
     color: white;
-    background-color: rgb(255, 115, 0);
+    border-radius: 5px 70px 5px 70px;
+    background-color:rgb(255, 132, 31);
     align-items: center;
-    justify-content: center;
 }
 
 .contato button{
-    margin: 15px 0px;
-    padding: 15px 55px;
+    margin: 5px 0px;
+    padding: 10px 15px;
     border: 1px hidden;
     border-radius: 8px;
-    background-color: rgb(0, 0, 0);
+    background-color: orangered;
     align-items: center;
     color: white;
-}
-
-footer{
-  display: flex;
-  flex-wrap: wrap;
-    width: 100%;
-    margin: 0;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    justify-content: space-between;
-    overflow-x: hidden;
 }
 
 .social-media{
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: left;
+    flex-direction: row;
+    margin: 0px 7px;
+    padding: 5px;
+    align-items: center;
 }
 
 .social-media h3{
-    padding: 0px 5px;
+    padding: 0px 15px;
     text-align: left;
 }
 
-.links img{
-    margin: 1px;
-    padding: 0px 2px 15px 0px;
+footer{
+  display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    overflow-x: hidden;
 }
 
 footer p{
