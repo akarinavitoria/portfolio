@@ -1,173 +1,191 @@
-*{
-  overflow-x: hidden;
-  box-sizing: border-box;
-}
 
 body{
+    display: flexbox;
     margin: 0;
-    width: 100vw;
-    height: 100vh;
+    padding: 0;
     background-color:rgb(255, 255, 255);
 }
 
 header{
     display: flex;
-    position: absolute;
-    margin: 0;
-    width: 100%;
-    padding: 10px 20px;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
+    padding: 10px;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
     justify-content: left;
 }
 
-.botoes{
-    padding: 0px 50px;
+nav{
     margin: 0px;
+    padding: 20px;
+    gap: 10px;
     align-items: center;
 }
 
 .botoes button{
-    padding: 10px 55px;
-    margin: 5px;
-    border: 1px hidden;
-    border-radius: 8px;
-    background-color: orangered;
+    margin: 0px 5px;
+    padding: 12px 20px;
+    color: #ffffff;
+    font-size: small;
+    border: hidden;
+    background-color: #ff5307;
+    border-radius: 10px;
     align-items: center;
-    color: rgb(255, 255, 255);
-   font-size: 20px;
+}
+
+.botoes button:hover{
+     transform: scale(1.2);
 }
 
 main{
-    margin: 80px 0px 0px 0px;
-    padding: 5px;
-    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    color:#ffffff;
+    background-color: #ffffff;
+    justify-content: center;
 }
 
-.perfil{
+.sobre-container h1{
+    margin: 0px;
+    padding: 25px 0px;
+    text-align:left;
+    align-self: center;
+    color: #ff5307;
+}
+
+.sobre-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    padding: 20px;
-    align-items: center;
+    margin: 0;
+    padding: 10px;
+    gap: 70px;
     justify-content: center;
-     background-color:rgb(255, 132, 31);
 }
 
-.perfil h1{
-    padding: 0px 30px;
-    color: rgb(255, 255, 255);
+.sobre-container img{
+    width: 150px;
+    height: auto;
+    border-radius: 40px 40px 100px 0px;
+    border: 5px solid #ff5307;
 }
 
-.perfil h2{
-    padding: 0px 35px;
-    color: rgb(255, 255, 255);
-    text-indent: 5px;
-}
-
-.perfil p{
-    padding: 0px 35px;
-    color: rgb(255, 255, 255);
-    text-indent: 5px;
-}
-.perfil img{
-    padding: 5px;
-    border: 1px hidden;
-    border-radius: 50px 0px 50px 0px;
-    box-shadow: 20px 40px 0px 0px orangered;
-}
-
-.linguagens{
-   padding: 0px 5px;
-   margin: 5px;
-   justify-content: left;
+.projetos{
+    display: grid;
+    margin: 0px 0px;
+    padding: 12px 20px;
+    color: #ffffff;
+    font-size: medium;
+    background-color: #ff5307;
+    align-items: center;
 }
 
 .projetos h2{
-    text-align: center;
-    font-size: 35px;
-    color: orangered;
+     font-size: 30px;
+     color: #ffffff;
+     text-align: center;
 }
 
 .container-projetos{
     display: flex;
-    text-align: center;
-    margin: 0px;
-    padding: 20px;
+    padding: 20px 0px;
+    gap: 30px;
     justify-content: center;
-    background-color: white;
 }
 
 .card-projetos{
-    margin: 10px 5px;
-    padding: 20px;
-    align-items: center;
-    border: 1px hidden;
-    border-radius: 8px;
+    padding: 25px;
+    color: #000000;
+    border: hidden;
+    background-color: #ffffff;
+    border-radius: 10px;
     justify-content: center;
-    background-color:rgb(255, 132, 31);
 }
 
-.card-projetos p{
-    text-align: center;
+.card-projetos img{
+    width: 100%;
+    height: auto;
+    justify-content: center;
 }
 
-.card-projetos button{
-    margin: 10px 0px;
-    padding: 5px 45px;
-    border: 1px hidden;
-    border-radius: 8px;
-    background-color: orangered;
-    align-items: center;
-    color: white;
+.container-projetos button{
+    margin: 5px 0px;
+    padding: 10px 25px;
+    color: #ffffff;
+    border: none;
+    background-color: #ff5307;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.projetos button:hover{
+     transform: scale(1.1);
 }
 
 .contato{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
-    margin: 20px;
-    color: white;
-    border-radius: 5px 70px 5px 70px;
-    background-color:rgb(255, 132, 31);
-    align-items: center;
+    margin: 0;
+    padding: 20px;
+    color: #ff5307;
+    background-color: #ffffff;
+    justify-content: center;
 }
 
-.contato button{
+.contato-container h2{
+    padding: 5px 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.contato-container h3{
+    font-size: 5px 20px;
+    text-align: center;
+}
+
+.contato-container button{
     margin: 5px 0px;
-    padding: 10px 15px;
-    border: 1px hidden;
-    border-radius: 8px;
-    background-color: orangered;
-    align-items: center;
-    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    background-color: #ff5307;
+    border-radius: 10px;
+}
+
+.contato-container button:hover{
+     transform: scale(1.1);
 }
 
 .social-media{
     display: flex;
-    flex-direction: row;
-    margin: 0px 7px;
-    padding: 5px;
-    align-items: center;
+    padding: 5px 20px;
+    gap: 15px;
+    justify-content: right;
+}
+
+.links-container{
+    gap: 5px;
+    align-self: center;
 }
 
 .social-media h3{
-    padding: 0px 15px;
-    text-align: left;
+    font-size: 25px;
+    text-align: center;
 }
 
 footer{
-  display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    overflow-x: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px 20px;
+    gap: 0px 15px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
 }
 
 footer p{
-    margin: 0px;
-    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+footer img{
+    justify-content: center;
 }
